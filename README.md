@@ -14,6 +14,12 @@ Diantara metode pembayaran yang akan disupport antara lain :
 
 * QR Payment
   * QRIS
+
+Tipe tagihan yang tersedia:
+   * CLOSED : bayar sesuai nominal. Kalau tidak sesuai, ditolak
+   * OPEN : pembayaran berapapun diterima
+   * INSTALLMENT : pembaran diterima selama total akumulasi lebih kecil atau sama dengan nilai tagihan
+
   
 
 ## Cara Setup Database
