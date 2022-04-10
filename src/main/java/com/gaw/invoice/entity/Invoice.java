@@ -21,6 +21,10 @@ import java.time.LocalDate;
 public class Invoice extends BaseEntity {
 
     @NotNull
+    @ManyToOne @JoinColumn(name = "id_customer")
+    private Customer customer;
+
+    @NotNull
     @ManyToOne @JoinColumn(name = "id_invoice_type")
     private InvoiceType invoiceType;
 

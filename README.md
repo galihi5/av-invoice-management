@@ -20,6 +20,16 @@ Tipe tagihan yang tersedia:
    * OPEN : pembayaran berapapun diterima
    * INSTALLMENT : pembaran diterima selama total akumulasi lebih kecil atau sama dengan nilai tagihan
 
+Fitur Aplikasi :
+* Manajemen Customer
+  * Registrasi Customer
+  * Rekap tagihan Customer
+  * Historu pembayaran
+* Manajemen invoice
+    * Membuat invoice
+    * Mengganti nilai dan tanggal jatuh tempo
+    * Membatalkan invoice
+* 
   
 
 ## Cara Setup Database
