@@ -42,4 +42,13 @@ public class Invoice extends BaseEntity {
 
     @NotNull
     private Boolean paid = false;
+
+    @NotNull
+    private BigDecimal totalPayment;
+
+    @NotNull
+    private PaymentStatus paymentStatus;
+    public enum PaymentStatus {
+        FULL
+    }
 }

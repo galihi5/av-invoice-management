@@ -27,4 +27,5 @@ public class Payment extends BaseEntity {
 
     @NotNull @Min(1)
     private BigDecimal amount;
+
 }

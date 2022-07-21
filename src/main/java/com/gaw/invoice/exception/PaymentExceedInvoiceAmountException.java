@@ -1,4 +1,4 @@
 package com.gaw.invoice.exception;
 
-public class PaymentExceedInvoiceAmountException {
+public class PaymentExceedInvoiceAmountException extends Exception{
 }
